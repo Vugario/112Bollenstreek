@@ -27,3 +27,6 @@ up:
 
 down:
 	docker-compose down
+
+test:
+	docker-compose exec bollenstreek_app ./vendor/bin/phpunit
